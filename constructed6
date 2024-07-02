@@ -1,4 +1,4 @@
 plugin: constructed
 strict: true
 groups:
-  target_group: "'linuxservers' in group_names or 'winservers' in group_names and 'no-patch' not in group_names"
+  target_group: "('linuxservers' in group_names or 'winservers' in group_names) and 'no-patch' not in group_names"
