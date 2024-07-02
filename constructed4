@@ -6,6 +6,6 @@ plugin: constructed
 strict: true
 groups:
   shutdown: resolved_state == "shutdown"
-  target_group: resolved_state == "shutdown" and account_alias == "product_dev" and ansible_distribution == "RedHat"
+  target_group: resolved_state == "shutdown" and account_alias == "product_dev"
 compose:
   resolved_state: state | default("running")
