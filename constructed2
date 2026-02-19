@@ -4,6 +4,6 @@ This could be practical to identify which systems in the field are vulnerable
 
 
 plugin: constructed
-strict: true
+strict: false
 groups:
   target_group: ansible_kernel == "5.14.0-503.11.1.el9_5.x86_64"
