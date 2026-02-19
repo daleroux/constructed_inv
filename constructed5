@@ -8,6 +8,6 @@ Smart inv is limited to using 1 ansible_facts
 
 
 plugin: constructed
-strict: true
+strict: false
 groups:
   target_group: ansible_distribution =="RedHat" and ansible_kernel == "5.14.0-503.11.1.el9_5.x86_64"
